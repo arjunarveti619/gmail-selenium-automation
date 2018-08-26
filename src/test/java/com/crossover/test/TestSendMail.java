@@ -1,12 +1,12 @@
-package com.crossover.e2e;
+package com.crossover.test;
 
 import java.awt.AWTException;
 
 import org.junit.Test;
 
-import com.crossover.Page.LoginPage;
-import com.crossover.Page.SendMailPage;
 import com.crossover.constants.GlobalConstants;
+import com.crossover.page.LoginPage;
+import com.crossover.page.SendMailPage;
 
 
 public class TestSendMail extends BaseClass{

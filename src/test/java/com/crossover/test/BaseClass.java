@@ -1,4 +1,4 @@
-package com.crossover.e2e;
+package com.crossover.test;
 
 import java.util.concurrent.TimeUnit;
 

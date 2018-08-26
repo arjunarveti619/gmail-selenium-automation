@@ -1,4 +1,4 @@
-package com.crossover.Page;
+package com.crossover.page;
 
 import static org.junit.Assert.assertEquals;
 
