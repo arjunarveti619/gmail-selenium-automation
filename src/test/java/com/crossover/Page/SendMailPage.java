@@ -65,6 +65,7 @@ public class SendMailPage extends BasePage {
 		Thread.sleep(5000);
 		WaitForElementToAppear(SEARCH_BOX).sendKeys("subject: "+GlobalConstants.SUBJECT);
 		WaitForElementToAppear(OPEN_FIRST_EMAIL).click();
+		Thread.sleep(5000);
 		String ExtractSubjectName = getText(GET_SUBJECT);
 		String ExtractBody = getText(GET_BODY);
 		String ExtractAttachmentText = getText(GET_ATTACHMENT_TEXT);
