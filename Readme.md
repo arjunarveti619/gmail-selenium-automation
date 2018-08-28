@@ -1,8 +1,8 @@
 # Prerequisites:
 - ChromeDriver, JDK 8+
 - Gradle
-This Project is built using selenium ,Java , Junit and gradle
-This Project sends an email to the same gmail-id with Body and Attachment and verifies the same.
+
+This Project is built using selenium ,Java , Junit and gradle .This Project sends an email to the same gmail-id with Body and Attachment and verifies the same.
 The test will do
 - Login to Gmail
 - Compose an email with unique subject, body, and attachment
